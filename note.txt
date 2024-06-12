@@ -1,0 +1,2 @@
+ts_delta - bộ volume
+ts_delay 

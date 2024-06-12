@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  WQ:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: apache-php
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+      - ./php.ini:/usr/local/etc/php/php.ini-development

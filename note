@@ -1,0 +1,3 @@
+- Hệ số bất đối xứng (Skewness) - ts_co_skewness(y, x, d) - ts_skewness(x, d)
+- Hệ số nhọn (Kurtorsis) - ts_kurtosis(x, d) - ts_co_kurtosis(y, x, d)
+- Hiệp phương sai (Covariance) - ts_covariance(y, x, d)
